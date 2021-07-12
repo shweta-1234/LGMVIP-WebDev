@@ -1,0 +1,208 @@
+nav{
+    background-color:skyblue;
+}
+.navbar {
+    margin:auto 100px;
+}
+
+.navbar li {
+    cursor: pointer;
+    float: left;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: auto 10px;
+    padding: 2px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+
+.img{
+    margin:auto;
+    border: 2px solid blue;
+    width: 100%;
+    height: 450px;
+}
+
+h1{
+    margin: 34px auto;
+    padding: 23px;
+    text-align: center;
+}
+
+#card1{
+    float: left;
+    margin: auto 20px;
+}
+
+#card2{
+    float: right;
+    margin: auto 60px;
+}
+
+#card3{
+    float: center;
+    margin: auto;
+}
+
+.container{
+    margin: 7px;
+    padding: 5px;
+}
+
+
+#services{
+    margin: 23px;
+    display: flex;
+}
+
+#services .box{
+    text-align: center;
+    margin: 3px auto;
+    padding: 25px;
+    width: 450px;
+}
+
+#services .box img{
+    margin: auto;
+}
+
+#services .box p{
+    font-size: 16px;
+}
+
+.button{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 9px;
+    padding: 7px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.button:hover{
+        background-color: purple;
+        color: white;
+}
+.button2{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 9px;
+    padding: 7px;
+}
+.button2:hover{
+    background-color: purple;
+    color: white;
+}
+
+.boxes{
+    display: inline-flex;
+    margin: 10px 70px;
+    padding: 50px;
+    border: 2px solid red;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+}
+#box1{
+    background-image: url('C:\\Users\\admin\\Documents\\Task\\img\\download (1).jpg');
+}
+
+#box2{
+    background-image: url('C:\\Users\\admin\\Documents\\Task\\img\\images (2).jpg');
+}
+
+#box3{
+    background-image: url('C:\\Users\\admin\\Documents\\Task\\img\\images (5).jpg');
+}
+#box4{
+    background-image: url('C:\\Users\\admin\\Documents\\Task\\img\\download (8).jpg');
+}
+#box5{
+    background-image: url('C:\\Users\\admin\\Documents\\Task\\img\\images (1).jpg');
+}
+#box6{
+    background-image: url('C:\\Users\\admin\\Documents\\Task\\img\\images (7).jpg');
+}
+
+
+.sigup{
+    text-align: center;
+    background-image: url('C:\\Users\\admin\\Documents\\Task\\img\\images (35).jpeg');
+    background-size: cover;
+    margin: auto;
+    padding: 100px;
+}
+.sigup h2{
+    margin: 14px ;
+}
+
+.sigup input{
+    border: 2px solid black;
+      width:350px;
+      padding: 8px;
+      margin: 4px;
+}
+
+.sigup input:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+#sig{
+    width: 120px;
+    cursor: pointer;
+    float: center;
+    margin: auto ;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: yellow;    
+}
+
+#sig:hover{
+    background-color: purple;
+    color: white;
+}
+.blog{
+    background-color:gray;
+    background-size: cover;
+    color: black;
+    width: 100%;
+    margin: auto;
+    height: 540px;
+    padding: 24px;
+}
+
+.blog h4{
+    text-align: center;
+}
+.btn2{
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: purple;
+    cursor: pointer;
+    color: white;
+    width: 300px;
+    padding: 5px;
+}
+ .form{
+     color: black;
+     font-weight: bold;
+     margin: auto 460px;
+    
+ }
+
+ input[type='text']{
+     width: 300px;
+     padding: 5px;
+     border: 2px solid black;
+     border-radius: 3px;
+ }
